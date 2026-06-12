@@ -1,0 +1,22 @@
+#Esqueci{
+    width: 180px;
+    text-align: start;
+}
+
+.conteudo-central{
+    padding-top: calc(2.5% + 130px);
+    margin-top: 3%;
+    width: 45%;
+}
+
+.botoes{
+    margin-top: 80px;
+}
+
+.contanerForm input{
+    width: 90%;
+}
+
+.contanerForm{
+    margin-bottom: 50px;
+}

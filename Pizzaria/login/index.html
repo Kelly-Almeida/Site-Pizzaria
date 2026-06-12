@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de forma de pagamento</title>
+    <title>Cadastro de estabelecimento</title>
     <link rel="stylesheet" href="/Pizzaria/estilos/style.css"> 
+    <link rel="stylesheet" href="/Pizzaria/estilos/styleLogin.css">
     <script src="/Pizzaria/CadEstabelecimento/script.js"></script>
     
 </head>
@@ -14,7 +15,7 @@
     
         <header>
             <div class="itemH1 caixaVermelha">
-                <h1 class="h1Shadow fontAmarela">Forma de pagamento</h1>
+                <h1 class="h1Shadow fontAmarela">Login</h1>
             </div>
             
 
@@ -33,7 +34,6 @@
                     <li><a href="/Pizzaria/CadCliente/index.html"><img src="/Pizzaria/icons/icon-cad.png" alt="Cadastro"></a></li>
                     <li><a href="/Pizzaria/CadUser/index.html"><img src="/Pizzaria/icons/cadastros.png" alt="Cadastros"></a></li>
                 </ul>
-
                 
             </nav>
         </header>
@@ -43,30 +43,18 @@
             <form action="#" class="conteudo-central">
 
                 <div class="contanerForm">
-                    <label for="tipo">Tipo: </label> 
-                    <select name="tipo" id="tipo">
-                        <option value="Pix">Pix</option>
-                        <option value="cartaoDebito">Cartão de Débito</option>
-                        <option value="cartaoCredito">Cartão de Crédito</option>
-                    </select>
+                    <label for="email">Email: </label> <input type="email" name="email" placeholder="Karolina@pancadao.com">
                 </div>
 
-                <div class="contanerForm" id="chavePix">
-                    <label for="chavePix">Chave pix: </label> <input type="text" name="chavePix" placeholder="111.111.111-11">
-                </div>
 
-                <div class="contanerForm" id="numCartao">
-                    <label for="numCartao">Número do cartão: </label> <input type="text" name="numCartao" placeholder="12345678910">
+               <div class="contanerForm">
+                    <label for="senha">Senha: </label>
+                    <input type="password" name="senha" id="campo-senha" placeholder="********" >
                 </div>
-
-                <div class="contanerForm" id="cvv">
-                    <label for="cvv">CVV: </label> <input type="password" name="cvv" placeholder="1325">
-                </div>
-
 
                 <div class="botoes">
                         <div class = "caixaVermelha btn">
-                            <input type="submit" value="Cancelar" class="fontAmarela">
+                            <input value="Esqueci a senha" class="fontAmarela" id="Esqueci">
                         </div>
 
                         <div class = "caixaVermelha btn">
@@ -90,5 +78,4 @@
         </footer>
     </div>
 </body>
-
 </html>

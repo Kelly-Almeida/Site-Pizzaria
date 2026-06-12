@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de forma de pagamento</title>
     <link rel="stylesheet" href="/Pizzaria/estilos/style.css"> 
+    <link rel="stylesheet" href="/Pizzaria/estilos/styleCadUser.css">
     <script src="/Pizzaria/CadEstabelecimento/script.js"></script>
     
 </head>
@@ -14,7 +15,7 @@
     
         <header>
             <div class="itemH1 caixaVermelha">
-                <h1 class="h1Shadow fontAmarela">Forma de pagamento</h1>
+                <h1 class="h1Shadow fontAmarela">Usuário</h1>
             </div>
             
 
@@ -25,6 +26,7 @@
             <nav class="itemNav" id="navegador">
                 <div ><img src="/Pizzaria/icons/menu-hamburguer.png" alt="menu" id="menu-mobile" onclick="abrirMenu()"></div>
 
+
                 <ul id ="menu">
                     <li id="fechar-mobile-li"><img src="/Pizzaria/icons/fechar.png" alt="Fechar" id="fechar-mobile" onclick="fecharMenu()"></li>
                     <li><a href="/Pizzaria/langing-page/index.html"><img src="/Pizzaria/icons/icon-home.png" alt="Home"></a></li>
@@ -33,7 +35,6 @@
                     <li><a href="/Pizzaria/CadCliente/index.html"><img src="/Pizzaria/icons/icon-cad.png" alt="Cadastro"></a></li>
                     <li><a href="/Pizzaria/CadUser/index.html"><img src="/Pizzaria/icons/cadastros.png" alt="Cadastros"></a></li>
                 </ul>
-
                 
             </nav>
         </header>
@@ -45,22 +46,19 @@
                 <div class="contanerForm">
                     <label for="tipo">Tipo: </label> 
                     <select name="tipo" id="tipo">
-                        <option value="Pix">Pix</option>
-                        <option value="cartaoDebito">Cartão de Débito</option>
-                        <option value="cartaoCredito">Cartão de Crédito</option>
+                        <option value="ADM">Administrador</option>
+                        <option value="COZINHEIRO">Cozinheiro</option>
+                        <option value="BALCONISTA">Balconista</option>
+                        <option value="CAIXA">Caixa</option>
                     </select>
                 </div>
 
-                <div class="contanerForm" id="chavePix">
-                    <label for="chavePix">Chave pix: </label> <input type="text" name="chavePix" placeholder="111.111.111-11">
+                <div class="contanerForm" id="nome">
+                    <label for="nome">Nome: </label> <input type="text" name="nome" placeholder="João...">
                 </div>
 
-                <div class="contanerForm" id="numCartao">
-                    <label for="numCartao">Número do cartão: </label> <input type="text" name="numCartao" placeholder="12345678910">
-                </div>
-
-                <div class="contanerForm" id="cvv">
-                    <label for="cvv">CVV: </label> <input type="password" name="cvv" placeholder="1325">
+                <div class="contanerForm" id="idFuncio">
+                    <label for="idFuncio">CPF: </label> <input type="text" name="idFuncio" placeholder="12345678910">
                 </div>
 
 

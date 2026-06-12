@@ -1,0 +1,18 @@
+.conteudo-central{
+    padding-top: calc(2.5% + 130px);
+    margin-top: 3%;
+    width: 45%;
+}
+
+.botoes{
+    margin-top: 80px;
+}
+
+.contanerForm label{
+    margin-right: 0;
+}
+
+.contanerForm{
+    margin-bottom: 50px;
+    
+}
