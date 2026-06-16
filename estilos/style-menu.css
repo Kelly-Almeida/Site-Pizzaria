@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Aton";
-    src: url(/Pizzaria/fonts/Anton-Regular.ttf);
+    src: url( /fonts/Anton-Regular.ttf);
 }
 
 @font-face {
     font-family: "Antonio";
-    src: url(/Pizzaria/fonts/Antonio-VariableFont_wght.ttf);
+    src: url( /fonts/Antonio-VariableFont_wght.ttf);
 }
 
 .combos, .pizzas, .bebidas{

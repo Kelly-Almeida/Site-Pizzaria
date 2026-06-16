@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Aton";
-    src: url("/Pizzaria/fonts/Anton-Regular.ttf");
+    src: url(" /fonts/Anton-Regular.ttf");
 }
 @font-face {
     font-family: "Antonio";
-    src: url("/Pizzaria/fonts/Antonio-VariableFont_wght.ttf");
+    src: url(" /fonts/Antonio-VariableFont_wght.ttf");
 }
 body{
     margin-top: 30px;
@@ -160,6 +160,7 @@ figure:hover{
     display: none;
     background-color: #990000;
     border-radius: 5px;
+    margin-top: -15px;
 }
 
 .butaoCard a{
@@ -202,9 +203,7 @@ figure:hover{
 
     .butaoCard{
         display: block;
-        position: fixed;
-        position-anchor: --card;
-        position-area: bottom;
+        
         
     }
 }
